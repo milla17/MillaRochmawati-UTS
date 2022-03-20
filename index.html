@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>FoodDies</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-utensils text-danger me-2"></i>
+        <span>FoodDies</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div id="hero" class="bg-white text-dark" style="height: 70vh;">
+    <div class="container">
+      <div class="row align-items-center mt-5">
+        <div class="col-md-12 col-lg-6">
+          <h1 class="display-4 mb-0 pb-0">
+            Kamu Lapaaar?
+          </h1>
+          <h2 class="mt-0 pt-0">
+            Ingin mencari resep?
+          </h2>
+          <p class="lead">
+            Dengan beberapa klik, kamu dapat menemukan makanan yang tepat di untuk kamu coba!
+          </p>
+          <a class="btn btn-danger text-white mt-2" href="#blog">
+            Baca Resep Sekarang
+            <i class="fa-solid fa-angles-right"></i>
+          </a>
+        </div>
+        <div class="col-md-6 text-lg-start mt-5 d-none d-lg-block">
+          <img src="./images/food-hero.png" alt="FoodDies" class="img-fluid ms-5">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Special (Reviews) -->
+  <div id="reviews" style="background-color: rgb(251, 248, 248);">
+    <div class="container py-5 text-center">
+      <div class="col-lg-6 text-center mx-auto mb-3 mb-md-4 mt-4">
+        <h6>Reviews</h6>
+        <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">Menu Special dari FoodDies yang sudah kami review!
+          Pastinya menarik!
+        </h5>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/ayam.jpg" class="card-img-top" alt="Ayam Bekakak Manis"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Ayam Bekakak Manis</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp22.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review <i
+                  class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/rendang.jpg" class="card-img-top" alt="Rendang Bukan Sembarang"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Rendang Bukan Sembarang</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp17.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review <i
+                  class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/es-buah.jpg" class="card-img-top" alt="Es Buah Special"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Es Buah Special</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp12.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review
+                <i class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/ice-cream.jpg" class="card-img-top" alt="Ice Cream"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Ice Cream</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp7.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review
+                <i class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/burger.jpg" class="card-img-top" alt="Burger Cheese Special"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Burger Cheese Special</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp20.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review
+                <i class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-3">
+          <div class="card h-100">
+            <img src="./images/pizza.jpg" class="card-img-top" alt="Pizza Meat Lover's"
+              style="object-fit: cover !important; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title text-start mb-1">Pizza Meat Lover's Large</h5>
+              <div class="text-start mb-2">
+                <span>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star text-warning me-n1"></i>
+                  <i class="fa-solid fa-star-half text-warning"></i>
+                </span>
+                <span class="text-warning">4.5</span>
+                <span class="fs-6 text-muted">(5,245)</span>
+              </div>
+              <h6 class="text-start">Rp44.000,-</h6>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Review
+                <i class="ms-1 fa-solid fa-search"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h6>Diperbaharui 1 jam yang lalu</h6>
+    </div>
+  </div>
+
+  <!-- Blog -->
+  <div id="blog" class="py-5 bg-primary-gradient">
+    <div class="container">
+      <div class="row justify-content-center g-0">
+        <div class="col-xl-9">
+          <div class="col-lg-8 text-center mx-auto mb-3 mb-md-5 mt-4">
+            <h6>Blog Recipes</h6>
+            <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">Tutorial Masak ala FoodDies dengan rasa yang
+              muaantapp!</h5>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mt-3">
+              <div class="card h-100">
+                <img src="./images/ayam.jpg" class="card-img-top" alt="Ayam Bekakak Manis"
+                  style="object-fit: cover !important; height: 250px;">
+                <div class="card-body">
+                  <h5 class="card-title text-start mb-1">Ayam Bekakak Manis</h5>
+                  <div class="text-start mb-2">
+                    <span>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star-half text-warning"></i>
+                    </span>
+                    <span class="text-warning">4.5</span>
+                    <span class="fs-6 text-muted">(5,245)</span>
+                  </div>
+                  <h6 class="text-start">Ayam bekakak manis dengan rasa yang sangat balance ditambah dengan nasi.
+                    Cocok untuk kamu yang ...</h6>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Resep <i
+                      class="ms-1 fa-solid fa-search"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-3">
+              <div class="card h-100">
+                <img src="./images/rendang.jpg" class="card-img-top" alt="Rendang Bukan Sembarang"
+                  style="object-fit: cover !important; height: 250px;">
+                <div class="card-body">
+                  <h5 class="card-title text-start mb-1">Rendang Bukan Sembarang</h5>
+                  <div class="text-start mb-2">
+                    <span>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star text-warning me-n1"></i>
+                      <i class="fa-solid fa-star-half text-warning"></i>
+                    </span>
+                    <span class="text-warning">4.5</span>
+                    <span class="fs-6 text-muted">(5,245)</span>
+                  </div>
+                  <h6 class="text-start">Rendang daging empuk dengan rasa yang sangt gurih, ditambah dengan nasi.
+                    Pastinya sangat lezat ...</h6>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-danger d-block mt-auto my-1 btn-reviews">Lihat Resep <i
+                      class="ms-1 fa-solid fa-search"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h6 class="text-center mt-4">Nantikan resep terbaru dari FoodDies</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tentang FoodDies -->
+  <div id="about" class="py-5 mt-3" style="background-color: rgb(251, 248, 248);">
+    <div class="container">
+      <div class="row mb-4 text-center">
+        <div class="col-lg-10 text-center mx-auto mb-3 mb-md-5 mt-4">
+          <h6>What is FoodDies?</h6>
+          <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">Apakah FoodDies itu?</h5>
+          <p class="lead mt-4">FoodDies adalah platform yang digunakan untuk kamu mencari makanan atau minuman di
+            sekitar kamu yang wajib kamu coba. Pastinya FoodDies memberikan review terbaik karena kita mencicipinya
+            secara langsung. FoodDies juga memberikan nilai secara jujur dan terpercaya tentunya!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div id="contact" class="py-5 mt-3">
+    <div class="container">
+      <div class="text-center mx-auto mb-3 mb-md-5 mt-4">
+        <h6>Contact Us</h6>
+        <h5 class="fw-bold text-danger fs-3 fs-lg-5 lh-sm my-6">Hubungi Kami</h5>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="px-md-8 px-4 py-8 py-lg-0">
+            <div class="text-dark">
+              <h1 class="display-6 fw-bold">FoodDies</h1>
+              <p class="text-dark">
+                Gunakan form ini untuk berhubungan langsung dengan tim kami, kita akan menghubungi secepat mungkin.
+              </p>
+              <div class="mt-8">
+                <p class="fs-6">
+                  <i class="fa-solid fa-phone me-2"></i>+ 62 1234 5678 91011
+                </p>
+                <p class="fs-6">
+                  <i class="fa-solid fa-envelope me-2"></i>contact@foodDies.com
+                </p>
+                <p class="fs-6">
+                  <i class="fa-solid fa-street-view me-2"></i>Bogor, Indonesia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-lg-flex align-items-center position-fixed-lg bg-cover bg-light top-0
+            right-0">
+          <div class="p-5">
+            <div id="form">
+              <form class="row" name="submit-to-google-sheet">
+                <div class="mb-3 col-12 col-md-12">
+                  <label class="form-label" for="nama-lengkap"><span class="text-danger">*</span> Nama Lengkap:</label>
+                  <input class="form-control" name="name" type="text" id="nama-lengkap" placeholder="Nama Lengkap">
+                </div>
+                <div class="mb-3 col-12 col-md-12">
+                  <label class="form-label" for="email"><span class="text-danger">*</span> Alamat Email:</label>
+                  <input class="form-control" name="email" type="email" name="email" id="email"
+                    placeholder="Alamat Email">
+                </div>
+                <div class="mb-3 col-12">
+                  <label class="text-dark form-label" for="pesan"><span class="text-danger">*</span> Pesan:</label>
+                  <textarea class="form-control" name="message" id="pesan" rows="3" placeholder="Pesan"></textarea>
+                </div>
+                <div class="col-12">
+                  <button id="btn-submit-pesan" type="submit" class="btn btn-outline-secondary btn-block">
+                    Kirim Pesan
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-danger text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">Copyright 2022 &copy; Milla Rochmawati
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const tombolPesan = document.getElementById('btn-submit-pesan');
+    tombolPesan.addEventListener('click', (e) => {
+      e.preventDefault();
+      alert('Form masih dalam pengembangan');
+    });
+
+    const reviews = document.querySelectorAll('.btn-reviews');
+    reviews.forEach(tombol => {
+      tombol.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Tombol dalam pengembangan');
+      });
+    });
+  </script>
+</body>
+
+</html>
